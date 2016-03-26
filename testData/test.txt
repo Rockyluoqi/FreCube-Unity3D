@@ -1,0 +1,22 @@
+{
+    cell: {
+        dimensions: [
+            {
+                dimension: 'address',
+                level: 'province',
+                value: 'пб╫╝'
+            },
+            {
+                dimension: 'time',
+                level: 'year',
+                value: '2034'
+            },
+            {
+                dimension: 'category',
+                level: 'OneLevel',
+                value: 'ндру'
+            }
+        ],
+        measure: 10
+    }
+}

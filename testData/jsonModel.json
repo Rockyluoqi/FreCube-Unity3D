@@ -1,0 +1,30 @@
+{
+    cells: [
+        {
+            value: 1.4375,
+            coordinate: {
+                1，1，1
+            }
+        },
+        {
+            value: 1.5,
+            coordinate: {
+                2，2，2
+            }
+        }
+    ],
+    coordinates: {
+        x: [
+            { name: 2007, index: 1 },
+            { name: 2009, index: 2 }
+        ],
+        y：[
+            { name: 阿百川, index: 1 },
+            { name: 阿道夫, index: 2 }
+        ],
+        z: [
+            { name: 水电工, index: 1 },
+            { name: 肉骨头, index: 2 }
+        ]
+        }
+}

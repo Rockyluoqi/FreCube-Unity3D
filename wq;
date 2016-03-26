@@ -1,0 +1,1930 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   2DAxis.mat
+#	new file:   2DAxis.mat.meta
+#	new file:   2DAxis.png
+#	new file:   2DAxis.png.meta
+#	new file:   2DAxis.prefab
+#	new file:   2DAxis.prefab.meta
+#	new file:   3500Font.txt
+#	new file:   3500Font.txt.meta
+#	new file:   3500Font_0.png
+#	new file:   3500Font_0.png.meta
+#	new file:   Audio.meta
+#	new file:   Fonts.meta
+#	new file:   Fonts/LuckiestGuy.meta
+#	new file:   Fonts/LuckiestGuy/LICENSE.txt
+#	new file:   Fonts/LuckiestGuy/LICENSE.txt.meta
+#	new file:   LifeBar.js
+#	new file:   LifeBar.js.meta
+#	new file:   LifeBar.mat
+#	new file:   LifeBar.mat.meta
+#	new file:   LifeBarBackground.mat
+#	new file:   LifeBarBackground.mat.meta
+#	new file:   LifeBarOuter.mat
+#	new file:   LifeBarOuter.mat.meta
+#	new file:   Materials.meta
+#	new file:   Materials/ArchesMaterial.mat
+#	new file:   Materials/ArchesMaterial.mat.meta
+#	new file:   Materials/BatMaterial.mat
+#	new file:   Materials/BatMaterial.mat.meta
+#	new file:   Materials/BloxMaterial.mat
+#	new file:   Materials/BloxMaterial.mat.meta
+#	new file:   Materials/Bones.mat
+#	new file:   Materials/Bones.mat.meta
+#	new file:   Materials/CenterJoint.mat
+#	new file:   Materials/CenterJoint.mat.meta
+#	new file:   Materials/ClockGlassMaterial.mat
+#	new file:   Materials/ClockGlassMaterial.mat.meta
+#	new file:   Materials/ClockMaterial.mat
+#	new file:   Materials/ClockMaterial.mat.meta
+#	new file:   Materials/DollArmMaterial.mat
+#	new file:   Materials/DollArmMaterial.mat.meta
+#	new file:   Materials/DollhouseMaterial.mat
+#	new file:   Materials/DollhouseMaterial.mat.meta
+#	new file:   Materials/DrawersMaterial.mat
+#	new file:   Materials/DrawersMaterial.mat.meta
+#	new file:   Materials/EyesMaterial.mat
+#	new file:   Materials/EyesMaterial.mat.meta
+#	new file:   Materials/FiretruckMaterial.mat
+#	new file:   Materials/FiretruckMaterial.mat.meta
+#	new file:   Materials/FlareParticleMaterial.mat
+#	new file:   Materials/FlareParticleMaterial.mat.meta
+#	new file:   Materials/FluffParticleMaterial.mat
+#	new file:   Materials/FluffParticleMaterial.mat.meta
+#	new file:   Materials/GunMaterial.mat
+#	new file:   Materials/GunMaterial.mat.meta
+#	new file:   Materials/HearseMaterial.mat
+#	new file:   Materials/HearseMaterial.mat.meta
+#	new file:   Materials/HellephantMaterial.mat
+#	new file:   Materials/HellephantMaterial.mat.meta
+#	new file:   Materials/Joints.mat
+#	new file:   Materials/Joints.mat.meta
+#	new file:   Materials/LineRenderMaterial.mat
+#	new file:   Materials/LineRenderMaterial.mat.meta
+#	new file:   Materials/New Material 1.mat
+#	new file:   Materials/New Material 1.mat.meta
+#	new file:   Materials/New Material 2.mat
+#	new file:   Materials/New Material 2.mat.meta
+#	new file:   Materials/New Material.mat
+#	new file:   Materials/New Material.mat.meta
+#	new file:   Materials/No Name.mat
+#	new file:   Materials/No Name.mat.meta
+#	new file:   Materials/PlanksMaterial.mat
+#	new file:   Materials/PlanksMaterial.mat.meta
+#	new file:   Materials/PlayerMaterial.mat
+#	new file:   Materials/PlayerMaterial.mat.meta
+#	new file:   Materials/RobotMaterial.mat
+#	new file:   Materials/RobotMaterial.mat.meta
+#	new file:   Materials/SideMaterial.mat
+#	new file:   Materials/SideMaterial.mat.meta
+#	new file:   Materials/SpinningTopMaterial.mat
+#	new file:   Materials/SpinningTopMaterial.mat.meta
+#	new file:   Materials/StarMaterial.mat
+#	new file:   Materials/StarMaterial.mat.meta
+#	new file:   Materials/StoolMaterial.mat
+#	new file:   Materials/StoolMaterial.mat.meta
+#	new file:   Materials/TrainMaterial.mat
+#	new file:   Materials/TrainMaterial.mat.meta
+#	new file:   Materials/TransparentMaterial.mat
+#	new file:   Materials/TransparentMaterial.mat.meta
+#	new file:   Materials/WallMaterial.mat
+#	new file:   Materials/WallMaterial.mat.meta
+#	new file:   Materials/ZombearMaterial.mat
+#	new file:   Materials/ZombearMaterial.mat.meta
+#	new file:   Materials/ZombunnyMaterial.mat
+#	new file:   Materials/ZombunnyMaterial.mat.meta
+#	new file:   NGUI.meta
+#	new file:   NGUI/Editor.meta
+#	new file:   NGUI/Editor/FreeType.dll
+#	new file:   NGUI/Editor/FreeType.dll.meta
+#	new file:   NGUI/Editor/FreeType.dylib
+#	new file:   NGUI/Editor/FreeType.dylib.meta
+#	new file:   NGUI/Editor/Preview.meta
+#	new file:   NGUI/Editor/Preview/Control - Background.png
+#	new file:   NGUI/Editor/Preview/Control - Background.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Button.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Button.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Checkbox.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Checkbox.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Horizontal Scroll Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Horizontal Scroll Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Popup List.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Popup List.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Progress Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Progress Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Slider.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Slider.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Colored Vertical Scroll Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Colored Vertical Scroll Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Button.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Button.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Checkbox.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Checkbox.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Horizontal Scroll Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Horizontal Scroll Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Horizontal Slider.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Horizontal Slider.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Input Field.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Input Field.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Popup List.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Popup List.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Progress Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Progress Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Text Box.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Text Box.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Vertical Scroll Bar.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Vertical Scroll Bar.png.meta
+#	new file:   NGUI/Editor/Preview/Control - Simple Vertical Slider.png
+#	new file:   NGUI/Editor/Preview/Control - Simple Vertical Slider.png.meta
+#	new file:   NGUI/Examples.meta
+#	new file:   NGUI/Examples/Animations.meta
+#	new file:   NGUI/Examples/Animations/Button.anim
+#	new file:   NGUI/Examples/Animations/Button.anim.meta
+#	new file:   NGUI/Examples/Animations/Checkmark.anim
+#	new file:   NGUI/Examples/Animations/Checkmark.anim.meta
+#	new file:   NGUI/Examples/Animations/Logo.anim
+#	new file:   NGUI/Examples/Animations/Logo.anim.meta
+#	new file:   NGUI/Examples/Animations/Window - Back.anim
+#	new file:   NGUI/Examples/Animations/Window - Back.anim.meta
+#	new file:   NGUI/Examples/Animations/Window - Forward.anim
+#	new file:   NGUI/Examples/Animations/Window - Forward.anim.meta
+#	new file:   NGUI/Examples/Atlases.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.mat
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.mat.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.prefab
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.psd
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Atlas.psd.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.prefab
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.txt
+#	new file:   NGUI/Examples/Atlases/Fantasy/Fantasy Font - Normal.txt.meta
+#	new file:   NGUI/Examples/Atlases/Refractive.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas - Bump.psd
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas - Bump.psd.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas - Masks.psd
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas - Masks.psd.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.mat
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.mat.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.prefab
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.psd
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Atlas.psd.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Header.prefab
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Header.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Header.txt
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Header.txt.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.prefab
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.txt
+#	new file:   NGUI/Examples/Atlases/Refractive/Refractive Font - Normal.txt.meta
+#	new file:   NGUI/Examples/Atlases/SciFi.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.mat
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.mat.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.png
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.png.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.prefab
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.prefab.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.txt
+#	new file:   NGUI/Examples/Atlases/SciFi/ChineseFont.txt.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.mat.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.prefab.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.psd
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Atlas.psd.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Header.prefab
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Header.prefab.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Header.txt
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Header.txt.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.prefab
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.prefab.meta
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.txt
+#	new file:   NGUI/Examples/Atlases/SciFi/SciFi Font - Normal.txt.meta
+#	new file:   NGUI/Examples/Atlases/Wooden.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.tga
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.tga.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.txt
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo14.txt.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.tga
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.tga.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.txt
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo18.txt.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.tga
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.tga.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.txt
+#	new file:   NGUI/Examples/Atlases/Wooden/Arimo20.txt.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Coalition.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Coalition.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Background.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Background.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Button.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Button.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Checkbox.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Checkbox.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Horizontal Scroll Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Horizontal Scroll Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Popup List.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Popup List.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Progress Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Progress Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Slider.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Slider.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Vertical Scroll Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Colored Vertical Scroll Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Button.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Button.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Checkbox.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Checkbox.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Scroll Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Scroll Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Slider.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Horizontal Slider.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Input Field.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Input Field.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Popup List.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Popup List.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Progress Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Progress Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Text Box.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Text Box.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Scroll Bar.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Scroll Bar.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Slider.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Control - Simple Vertical Slider.prefab.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.mat.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.png
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.png.meta
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.prefab
+#	new file:   NGUI/Examples/Atlases/Wooden/Wooden Atlas.prefab.meta
+#	new file:   NGUI/Examples/Materials.meta
+#	new file:   NGUI/Examples/Materials/Backdrop.mat
+#	new file:   NGUI/Examples/Materials/Backdrop.mat.meta
+#	new file:   NGUI/Examples/Materials/brick.mat
+#	new file:   NGUI/Examples/Materials/brick.mat.meta
+#	new file:   NGUI/Examples/Materials/burlap.mat
+#	new file:   NGUI/Examples/Materials/burlap.mat.meta
+#	new file:   NGUI/Examples/Materials/sand.mat
+#	new file:   NGUI/Examples/Materials/sand.mat.meta
+#	new file:   NGUI/Examples/Models.meta
+#	new file:   NGUI/Examples/Models/Orc Armor.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Bracers.FBX
+#	new file:   NGUI/Examples/Models/Orc Armor/Bracers.FBX.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Diffuse).psd
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Diffuse).psd.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Maps).png
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Maps).png.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Normal).png
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor (Normal).png.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor.mat
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor.mat.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor.shader
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Armor.shader.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Bracers.prefab
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Bracers.prefab.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Shoulders.prefab
+#	new file:   NGUI/Examples/Models/Orc Armor/Orc Shoulders.prefab.meta
+#	new file:   NGUI/Examples/Models/Orc Armor/Shoulders.FBX
+#	new file:   NGUI/Examples/Models/Orc Armor/Shoulders.FBX.meta
+#	new file:   NGUI/Examples/Models/Orc.meta
+#	new file:   NGUI/Examples/Models/Orc/FBX.FBX
+#	new file:   NGUI/Examples/Models/Orc/FBX.FBX.meta
+#	new file:   NGUI/Examples/Models/Orc/FBX@idle.FBX
+#	new file:   NGUI/Examples/Models/Orc/FBX@idle.FBX.meta
+#	new file:   NGUI/Examples/Models/Orc/FBX@idleBreaks.FBX
+#	new file:   NGUI/Examples/Models/Orc/FBX@idleBreaks.FBX.meta
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin (Diffuse).psd
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin (Diffuse).psd.meta
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin (Normal).png
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin (Normal).png.meta
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin.mat
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin.mat.meta
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin.shader
+#	new file:   NGUI/Examples/Models/Orc/Orc Skin.shader.meta
+#	new file:   NGUI/Examples/Models/Orc/Orc.prefab
+#	new file:   NGUI/Examples/Models/Orc/Orc.prefab.meta
+#	new file:   NGUI/Examples/Other.meta
+#	new file:   NGUI/Examples/Other/Storage Icon Template.prefab
+#	new file:   NGUI/Examples/Other/Storage Icon Template.prefab.meta
+#	new file:   NGUI/Examples/Resources.meta
+#	new file:   NGUI/Examples/Resources/Localization.txt
+#	new file:   NGUI/Examples/Resources/Localization.txt.meta
+#	new file:   NGUI/Examples/Scenes.meta
+#	new file:   NGUI/Examples/Scenes/Example 0 - Control Widgets.unity
+#	new file:   NGUI/Examples/Scenes/Example 0 - Control Widgets.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 1 - Anchors.unity
+#	new file:   NGUI/Examples/Scenes/Example 1 - Anchors.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 10 - Localization.unity
+#	new file:   NGUI/Examples/Scenes/Example 10 - Localization.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 11 - Drag & Drop.unity
+#	new file:   NGUI/Examples/Scenes/Example 11 - Drag & Drop.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 12 - Chat Window.unity
+#	new file:   NGUI/Examples/Scenes/Example 12 - Chat Window.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 13 - Tabs.unity
+#	new file:   NGUI/Examples/Scenes/Example 13 - Tabs.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 14 - Endless Scroll Views.unity
+#	new file:   NGUI/Examples/Scenes/Example 14 - Endless Scroll Views.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 2 - Interaction.unity
+#	new file:   NGUI/Examples/Scenes/Example 2 - Interaction.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 3 - Menu.unity
+#	new file:   NGUI/Examples/Scenes/Example 3 - Menu.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 4 - Controller Input.unity
+#	new file:   NGUI/Examples/Scenes/Example 4 - Controller Input.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 5 - Lights and Refraction.unity
+#	new file:   NGUI/Examples/Scenes/Example 5 - Lights and Refraction.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 6 - Draggable Window.unity
+#	new file:   NGUI/Examples/Scenes/Example 6 - Draggable Window.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 7 - Scroll View (Panel).unity
+#	new file:   NGUI/Examples/Scenes/Example 7 - Scroll View (Panel).unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 8 - Scroll View (Camera).unity
+#	new file:   NGUI/Examples/Scenes/Example 8 - Scroll View (Camera).unity.meta
+#	new file:   NGUI/Examples/Scenes/Example 9 - Quest Log.unity
+#	new file:   NGUI/Examples/Scenes/Example 9 - Quest Log.unity.meta
+#	new file:   NGUI/Examples/Scenes/Example X - Character.unity
+#	new file:   NGUI/Examples/Scenes/Example X - Character.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 1.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 1.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 2.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 2.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 3.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 3.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 4.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 4.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 5.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 5.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 6.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 6.unity.meta
+#	new file:   NGUI/Examples/Scenes/Tutorial 7.unity
+#	new file:   NGUI/Examples/Scenes/Tutorial 7.unity.meta
+#	new file:   NGUI/Examples/Scripts.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Editor.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/EquipRandomItem.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UICursor.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvAttachmentPoint.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvBaseItem.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvDatabase.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvGameItem.cs.meta
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs
+#	new file:   NGUI/Examples/Scripts/InventorySystem/System/InvStat.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other.meta
+#	new file:   NGUI/Examples/Scripts/Other/ChatInput.cs
+#	new file:   NGUI/Examples/Scripts/Other/ChatInput.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/DownloadTexture.cs
+#	new file:   NGUI/Examples/Scripts/Other/DownloadTexture.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/EnvelopContent.cs
+#	new file:   NGUI/Examples/Scripts/Other/EnvelopContent.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs
+#	new file:   NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs
+#	new file:   NGUI/Examples/Scripts/Other/ExampleDragDropSurface.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/LagPosition.cs
+#	new file:   NGUI/Examples/Scripts/Other/LagPosition.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/LagRotation.cs
+#	new file:   NGUI/Examples/Scripts/Other/LagRotation.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs
+#	new file:   NGUI/Examples/Scripts/Other/LoadLevelOnClick.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/LookAtTarget.cs
+#	new file:   NGUI/Examples/Scripts/Other/LookAtTarget.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/OpenURLOnClick.cs
+#	new file:   NGUI/Examples/Scripts/Other/OpenURLOnClick.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/PanWithMouse.cs
+#	new file:   NGUI/Examples/Scripts/Other/PanWithMouse.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs
+#	new file:   NGUI/Examples/Scripts/Other/PlayIdleAnimations.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/SetColorOnSelection.cs
+#	new file:   NGUI/Examples/Scripts/Other/SetColorOnSelection.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/Spin.cs
+#	new file:   NGUI/Examples/Scripts/Other/Spin.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/SpinWithMouse.cs
+#	new file:   NGUI/Examples/Scripts/Other/SpinWithMouse.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/Tutorial5.cs
+#	new file:   NGUI/Examples/Scripts/Other/Tutorial5.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/UISliderColors.cs
+#	new file:   NGUI/Examples/Scripts/Other/UISliderColors.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/WindowAutoYaw.cs
+#	new file:   NGUI/Examples/Scripts/Other/WindowAutoYaw.cs.meta
+#	new file:   NGUI/Examples/Scripts/Other/WindowDragTilt.cs
+#	new file:   NGUI/Examples/Scripts/Other/WindowDragTilt.cs.meta
+#	new file:   NGUI/Examples/Shaders.meta
+#	new file:   NGUI/Examples/Shaders/Refractive.shader
+#	new file:   NGUI/Examples/Shaders/Refractive.shader.meta
+#	new file:   NGUI/Examples/Shaders/Unlit - Additive Colored.shader
+#	new file:   NGUI/Examples/Shaders/Unlit - Additive Colored.shader.meta
+#	new file:   NGUI/Examples/Shaders/Unlit - Depth Cutout.shader
+#	new file:   NGUI/Examples/Shaders/Unlit - Depth Cutout.shader.meta
+#	new file:   NGUI/Examples/Shaders/Unlit - Depth.shader
+#	new file:   NGUI/Examples/Shaders/Unlit - Depth.shader.meta
+#	new file:   NGUI/Examples/Shaders/Unlit - Masked Colored.shader
+#	new file:   NGUI/Examples/Shaders/Unlit - Masked Colored.shader.meta
+#	new file:   NGUI/Examples/Sounds.meta
+#	new file:   NGUI/Examples/Sounds/Crumple.wav
+#	new file:   NGUI/Examples/Sounds/Crumple.wav.meta
+#	new file:   NGUI/Examples/Sounds/Rumble.wav
+#	new file:   NGUI/Examples/Sounds/Rumble.wav.meta
+#	new file:   NGUI/Examples/Sounds/Swipe.wav
+#	new file:   NGUI/Examples/Sounds/Swipe.wav.meta
+#	new file:   NGUI/Examples/Sounds/Tap.wav
+#	new file:   NGUI/Examples/Sounds/Tap.wav.meta
+#	new file:   NGUI/Examples/Textures.meta
+#	new file:   NGUI/Examples/Textures/Backdrop.png
+#	new file:   NGUI/Examples/Textures/Backdrop.png.meta
+#	new file:   NGUI/Examples/Textures/brick.jpg
+#	new file:   NGUI/Examples/Textures/brick.jpg.meta
+#	new file:   NGUI/Examples/Textures/brickNM.png
+#	new file:   NGUI/Examples/Textures/brickNM.png.meta
+#	new file:   NGUI/Examples/Textures/burlap.jpg
+#	new file:   NGUI/Examples/Textures/burlap.jpg.meta
+#	new file:   NGUI/Examples/Textures/sand.png
+#	new file:   NGUI/Examples/Textures/sand.png.meta
+#	new file:   NGUI/ReadMe - 3.7.5.txt
+#	new file:   NGUI/ReadMe - 3.7.5.txt.meta
+#	new file:   NGUI/Resources.meta
+#	new file:   NGUI/Resources/Shaders.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored (TextureClip).shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored (TextureClip).shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 1.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 1.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 2.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 2.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 3.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored 3.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Premultiplied Colored.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Text (TextureClip).shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Text (TextureClip).shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 1.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 1.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 2.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 2.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 3.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Text 3.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Text.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Text.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored (Packed) (TextureClip).shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored (Packed) (TextureClip).shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored (TextureClip).shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored (TextureClip).shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 1.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 1.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 2.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 2.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 3.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored 3.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Colored.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 1.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 1.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 2.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 2.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 3.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed 3.shader.meta
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed.shader
+#	new file:   NGUI/Resources/Shaders/Unlit - Transparent Packed.shader.meta
+#	new file:   NGUI/Scripts.meta
+#	new file:   NGUI/Scripts/Editor.meta
+#	new file:   NGUI/Scripts/Editor/ActiveAnimationEditor.cs
+#	new file:   NGUI/Scripts/Editor/ActiveAnimationEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/BMFontReader.cs
+#	new file:   NGUI/Scripts/Editor/BMFontReader.cs.meta
+#	new file:   NGUI/Scripts/Editor/ComponentSelector.cs
+#	new file:   NGUI/Scripts/Editor/ComponentSelector.cs.meta
+#	new file:   NGUI/Scripts/Editor/EventDelegateDrawer.cs
+#	new file:   NGUI/Scripts/Editor/EventDelegateDrawer.cs.meta
+#	new file:   NGUI/Scripts/Editor/EventDelegateEditor.cs
+#	new file:   NGUI/Scripts/Editor/EventDelegateEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/FreeType.cs
+#	new file:   NGUI/Scripts/Editor/FreeType.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIContextMenu.cs
+#	new file:   NGUI/Scripts/Editor/NGUIContextMenu.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIEditorExtensions.cs
+#	new file:   NGUI/Scripts/Editor/NGUIEditorExtensions.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIEditorTools.cs
+#	new file:   NGUI/Scripts/Editor/NGUIEditorTools.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIHandles.cs
+#	new file:   NGUI/Scripts/Editor/NGUIHandles.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIHelp.cs
+#	new file:   NGUI/Scripts/Editor/NGUIHelp.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIJson.cs
+#	new file:   NGUI/Scripts/Editor/NGUIJson.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUIMenu.cs
+#	new file:   NGUI/Scripts/Editor/NGUIMenu.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUISelectionTools.cs
+#	new file:   NGUI/Scripts/Editor/NGUISelectionTools.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUISettings.cs
+#	new file:   NGUI/Scripts/Editor/NGUISettings.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUISnap.cs
+#	new file:   NGUI/Scripts/Editor/NGUISnap.cs.meta
+#	new file:   NGUI/Scripts/Editor/NGUITransformInspector.cs
+#	new file:   NGUI/Scripts/Editor/NGUITransformInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/PropertyBindingEditor.cs
+#	new file:   NGUI/Scripts/Editor/PropertyBindingEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/PropertyReferenceDrawer.cs
+#	new file:   NGUI/Scripts/Editor/PropertyReferenceDrawer.cs.meta
+#	new file:   NGUI/Scripts/Editor/SpriteSelector.cs
+#	new file:   NGUI/Scripts/Editor/SpriteSelector.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenAlphaEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenAlphaEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenColorEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenColorEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenFOVEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenFOVEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenHeightEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenHeightEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenPositionEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenPositionEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenRotationEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenRotationEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenScaleEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenScaleEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenTransformEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenTransformEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenVolumeEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenVolumeEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/TweenWidthEditor.cs
+#	new file:   NGUI/Scripts/Editor/TweenWidthEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UI2DSpriteEditor.cs
+#	new file:   NGUI/Scripts/Editor/UI2DSpriteEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIAnchorEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIAnchorEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIAtlasInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIAtlasInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIAtlasMaker.cs
+#	new file:   NGUI/Scripts/Editor/UIAtlasMaker.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIBasicSpriteEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIBasicSpriteEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIButtonColorEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIButtonColorEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIButtonEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIButtonEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIButtonKeysEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIButtonKeysEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIButtonMessageEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIButtonMessageEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UICameraEditor.cs
+#	new file:   NGUI/Scripts/Editor/UICameraEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UICameraTool.cs
+#	new file:   NGUI/Scripts/Editor/UICameraTool.cs.meta
+#	new file:   NGUI/Scripts/Editor/UICreateNewUIWizard.cs
+#	new file:   NGUI/Scripts/Editor/UICreateNewUIWizard.cs.meta
+#	new file:   NGUI/Scripts/Editor/UICreateWidgetWizard.cs
+#	new file:   NGUI/Scripts/Editor/UICreateWidgetWizard.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIDragObjectEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIDragObjectEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIDrawCallInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIDrawCallInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIDrawCallViewer.cs
+#	new file:   NGUI/Scripts/Editor/UIDrawCallViewer.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIEventTriggerEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIEventTriggerEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIFontInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIFontInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIFontMaker.cs
+#	new file:   NGUI/Scripts/Editor/UIFontMaker.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIForwardEventsEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIForwardEventsEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIGridEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIGridEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIImageButtonInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIImageButtonInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIInputEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIInputEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIKeyNavigationEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIKeyNavigationEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UILabelInspector.cs
+#	new file:   NGUI/Scripts/Editor/UILabelInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UILocalizeEditor.cs
+#	new file:   NGUI/Scripts/Editor/UILocalizeEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPanelInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIPanelInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPanelTool.cs
+#	new file:   NGUI/Scripts/Editor/UIPanelTool.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPlayAnimationEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIPlayAnimationEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPlayTweenEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIPlayTweenEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPopupListInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIPopupListInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIPrefabTool.cs
+#	new file:   NGUI/Scripts/Editor/UIPrefabTool.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIProgressBarEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIProgressBarEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIRectEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIRectEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIRootEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIRootEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIScrollBarEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIScrollBarEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIScrollViewEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIScrollViewEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UISliderEditor.cs
+#	new file:   NGUI/Scripts/Editor/UISliderEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UISnapshotPointEditor.cs
+#	new file:   NGUI/Scripts/Editor/UISnapshotPointEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UISpriteAnimationInspector.cs
+#	new file:   NGUI/Scripts/Editor/UISpriteAnimationInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UISpriteInspector.cs
+#	new file:   NGUI/Scripts/Editor/UISpriteInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIStretchEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIStretchEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UITableEditor.cs
+#	new file:   NGUI/Scripts/Editor/UITableEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UITextureInspector.cs
+#	new file:   NGUI/Scripts/Editor/UITextureInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UITexturePacker.cs
+#	new file:   NGUI/Scripts/Editor/UITexturePacker.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIToggleInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIToggleInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UITweenerEditor.cs
+#	new file:   NGUI/Scripts/Editor/UITweenerEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIWidgetContainerEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIWidgetContainerEditor.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIWidgetInspector.cs
+#	new file:   NGUI/Scripts/Editor/UIWidgetInspector.cs.meta
+#	new file:   NGUI/Scripts/Editor/UIWrapContentEditor.cs
+#	new file:   NGUI/Scripts/Editor/UIWrapContentEditor.cs.meta
+#	new file:   NGUI/Scripts/Interaction.meta
+#	new file:   NGUI/Scripts/Interaction/LanguageSelection.cs
+#	new file:   NGUI/Scripts/Interaction/LanguageSelection.cs.meta
+#	new file:   NGUI/Scripts/Interaction/TypewriterEffect.cs
+#	new file:   NGUI/Scripts/Interaction/TypewriterEffect.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButton.cs
+#	new file:   NGUI/Scripts/Interaction/UIButton.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonActivate.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonActivate.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonColor.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonColor.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonKeys.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonKeys.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonMessage.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonMessage.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonOffset.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonOffset.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonRotation.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonRotation.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIButtonScale.cs
+#	new file:   NGUI/Scripts/Interaction/UIButtonScale.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UICenterOnChild.cs
+#	new file:   NGUI/Scripts/Interaction/UICenterOnChild.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UICenterOnClick.cs
+#	new file:   NGUI/Scripts/Interaction/UICenterOnClick.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragCamera.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragCamera.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragDropContainer.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragDropContainer.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragDropItem.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragDropItem.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragDropRoot.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragDropRoot.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragObject.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragObject.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragResize.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragResize.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDragScrollView.cs
+#	new file:   NGUI/Scripts/Interaction/UIDragScrollView.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIDraggableCamera.cs
+#	new file:   NGUI/Scripts/Interaction/UIDraggableCamera.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIEventTrigger.cs
+#	new file:   NGUI/Scripts/Interaction/UIEventTrigger.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIForwardEvents.cs
+#	new file:   NGUI/Scripts/Interaction/UIForwardEvents.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIGrid.cs
+#	new file:   NGUI/Scripts/Interaction/UIGrid.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIImageButton.cs
+#	new file:   NGUI/Scripts/Interaction/UIImageButton.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIKeyBinding.cs
+#	new file:   NGUI/Scripts/Interaction/UIKeyBinding.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIKeyNavigation.cs
+#	new file:   NGUI/Scripts/Interaction/UIKeyNavigation.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIPlayAnimation.cs
+#	new file:   NGUI/Scripts/Interaction/UIPlayAnimation.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIPlaySound.cs
+#	new file:   NGUI/Scripts/Interaction/UIPlaySound.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIPlayTween.cs
+#	new file:   NGUI/Scripts/Interaction/UIPlayTween.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIPopupList.cs
+#	new file:   NGUI/Scripts/Interaction/UIPopupList.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIProgressBar.cs
+#	new file:   NGUI/Scripts/Interaction/UIProgressBar.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UISavedOption.cs
+#	new file:   NGUI/Scripts/Interaction/UISavedOption.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIScrollBar.cs
+#	new file:   NGUI/Scripts/Interaction/UIScrollBar.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIScrollView.cs
+#	new file:   NGUI/Scripts/Interaction/UIScrollView.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UISlider.cs
+#	new file:   NGUI/Scripts/Interaction/UISlider.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UISoundVolume.cs
+#	new file:   NGUI/Scripts/Interaction/UISoundVolume.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UITable.cs
+#	new file:   NGUI/Scripts/Interaction/UITable.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIToggle.cs
+#	new file:   NGUI/Scripts/Interaction/UIToggle.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIToggledComponents.cs
+#	new file:   NGUI/Scripts/Interaction/UIToggledComponents.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIToggledObjects.cs
+#	new file:   NGUI/Scripts/Interaction/UIToggledObjects.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIWidgetContainer.cs
+#	new file:   NGUI/Scripts/Interaction/UIWidgetContainer.cs.meta
+#	new file:   NGUI/Scripts/Interaction/UIWrapContent.cs
+#	new file:   NGUI/Scripts/Interaction/UIWrapContent.cs.meta
+#	new file:   NGUI/Scripts/Internal.meta
+#	new file:   NGUI/Scripts/Internal/ActiveAnimation.cs
+#	new file:   NGUI/Scripts/Internal/ActiveAnimation.cs.meta
+#	new file:   NGUI/Scripts/Internal/AnimationOrTween.cs
+#	new file:   NGUI/Scripts/Internal/AnimationOrTween.cs.meta
+#	new file:   NGUI/Scripts/Internal/BMFont.cs
+#	new file:   NGUI/Scripts/Internal/BMFont.cs.meta
+#	new file:   NGUI/Scripts/Internal/BMGlyph.cs
+#	new file:   NGUI/Scripts/Internal/BMGlyph.cs.meta
+#	new file:   NGUI/Scripts/Internal/BMSymbol.cs
+#	new file:   NGUI/Scripts/Internal/BMSymbol.cs.meta
+#	new file:   NGUI/Scripts/Internal/BetterList.cs
+#	new file:   NGUI/Scripts/Internal/BetterList.cs.meta
+#	new file:   NGUI/Scripts/Internal/ByteReader.cs
+#	new file:   NGUI/Scripts/Internal/ByteReader.cs.meta
+#	new file:   NGUI/Scripts/Internal/EventDelegate.cs
+#	new file:   NGUI/Scripts/Internal/EventDelegate.cs.meta
+#	new file:   NGUI/Scripts/Internal/Localization.cs
+#	new file:   NGUI/Scripts/Internal/Localization.cs.meta
+#	new file:   NGUI/Scripts/Internal/NGUIDebug.cs
+#	new file:   NGUI/Scripts/Internal/NGUIDebug.cs.meta
+#	new file:   NGUI/Scripts/Internal/NGUIMath.cs
+#	new file:   NGUI/Scripts/Internal/NGUIMath.cs.meta
+#	new file:   NGUI/Scripts/Internal/NGUIText.cs
+#	new file:   NGUI/Scripts/Internal/NGUIText.cs.meta
+#	new file:   NGUI/Scripts/Internal/NGUITools.cs
+#	new file:   NGUI/Scripts/Internal/NGUITools.cs.meta
+#	new file:   NGUI/Scripts/Internal/PropertyBinding.cs
+#	new file:   NGUI/Scripts/Internal/PropertyBinding.cs.meta
+#	new file:   NGUI/Scripts/Internal/PropertyReference.cs
+#	new file:   NGUI/Scripts/Internal/PropertyReference.cs.meta
+#	new file:   NGUI/Scripts/Internal/RealTime.cs
+#	new file:   NGUI/Scripts/Internal/RealTime.cs.meta
+#	new file:   NGUI/Scripts/Internal/SpringPanel.cs
+#	new file:   NGUI/Scripts/Internal/SpringPanel.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIBasicSprite.cs
+#	new file:   NGUI/Scripts/Internal/UIBasicSprite.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIDrawCall.cs
+#	new file:   NGUI/Scripts/Internal/UIDrawCall.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIEventListener.cs
+#	new file:   NGUI/Scripts/Internal/UIEventListener.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIGeometry.cs
+#	new file:   NGUI/Scripts/Internal/UIGeometry.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIRect.cs
+#	new file:   NGUI/Scripts/Internal/UIRect.cs.meta
+#	new file:   NGUI/Scripts/Internal/UISnapshotPoint.cs
+#	new file:   NGUI/Scripts/Internal/UISnapshotPoint.cs.meta
+#	new file:   NGUI/Scripts/Internal/UIWidget.cs
+#	new file:   NGUI/Scripts/Internal/UIWidget.cs.meta
+#	new file:   NGUI/Scripts/Tweening.meta
+#	new file:   NGUI/Scripts/Tweening/AnimatedAlpha.cs
+#	new file:   NGUI/Scripts/Tweening/AnimatedAlpha.cs.meta
+#	new file:   NGUI/Scripts/Tweening/AnimatedColor.cs
+#	new file:   NGUI/Scripts/Tweening/AnimatedColor.cs.meta
+#	new file:   NGUI/Scripts/Tweening/AnimatedWidget.cs
+#	new file:   NGUI/Scripts/Tweening/AnimatedWidget.cs.meta
+#	new file:   NGUI/Scripts/Tweening/SpringPosition.cs
+#	new file:   NGUI/Scripts/Tweening/SpringPosition.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenAlpha.cs
+#	new file:   NGUI/Scripts/Tweening/TweenAlpha.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenColor.cs
+#	new file:   NGUI/Scripts/Tweening/TweenColor.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenFOV.cs
+#	new file:   NGUI/Scripts/Tweening/TweenFOV.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenHeight.cs
+#	new file:   NGUI/Scripts/Tweening/TweenHeight.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenOrthoSize.cs
+#	new file:   NGUI/Scripts/Tweening/TweenOrthoSize.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenPosition.cs
+#	new file:   NGUI/Scripts/Tweening/TweenPosition.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenRotation.cs
+#	new file:   NGUI/Scripts/Tweening/TweenRotation.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenScale.cs
+#	new file:   NGUI/Scripts/Tweening/TweenScale.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenTransform.cs
+#	new file:   NGUI/Scripts/Tweening/TweenTransform.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenVolume.cs
+#	new file:   NGUI/Scripts/Tweening/TweenVolume.cs.meta
+#	new file:   NGUI/Scripts/Tweening/TweenWidth.cs
+#	new file:   NGUI/Scripts/Tweening/TweenWidth.cs.meta
+#	new file:   NGUI/Scripts/Tweening/UITweener.cs
+#	new file:   NGUI/Scripts/Tweening/UITweener.cs.meta
+#	new file:   NGUI/Scripts/UI.meta
+#	new file:   NGUI/Scripts/UI/UI2DSprite.cs
+#	new file:   NGUI/Scripts/UI/UI2DSprite.cs.meta
+#	new file:   NGUI/Scripts/UI/UI2DSpriteAnimation.cs
+#	new file:   NGUI/Scripts/UI/UI2DSpriteAnimation.cs.meta
+#	new file:   NGUI/Scripts/UI/UIAnchor.cs
+#	new file:   NGUI/Scripts/UI/UIAnchor.cs.meta
+#	new file:   NGUI/Scripts/UI/UIAtlas.cs
+#	new file:   NGUI/Scripts/UI/UIAtlas.cs.meta
+#	new file:   NGUI/Scripts/UI/UICamera.cs
+#	new file:   NGUI/Scripts/UI/UICamera.cs.meta
+#	new file:   NGUI/Scripts/UI/UIFont.cs
+#	new file:   NGUI/Scripts/UI/UIFont.cs.meta
+#	new file:   NGUI/Scripts/UI/UIInput.cs
+#	new file:   NGUI/Scripts/UI/UIInput.cs.meta
+#	new file:   NGUI/Scripts/UI/UIInputOnGUI.cs
+#	new file:   NGUI/Scripts/UI/UIInputOnGUI.cs.meta
+#	new file:   NGUI/Scripts/UI/UILabel.cs
+#	new file:   NGUI/Scripts/UI/UILabel.cs.meta
+#	new file:   NGUI/Scripts/UI/UILocalize.cs
+#	new file:   NGUI/Scripts/UI/UILocalize.cs.meta
+#	new file:   NGUI/Scripts/UI/UIOrthoCamera.cs
+#	new file:   NGUI/Scripts/UI/UIOrthoCamera.cs.meta
+#	new file:   NGUI/Scripts/UI/UIPanel.cs
+#	new file:   NGUI/Scripts/UI/UIPanel.cs.meta
+#	new file:   NGUI/Scripts/UI/UIRoot.cs
+#	new file:   NGUI/Scripts/UI/UIRoot.cs.meta
+#	new file:   NGUI/Scripts/UI/UISprite.cs
+#	new file:   NGUI/Scripts/UI/UISprite.cs.meta
+#	new file:   NGUI/Scripts/UI/UISpriteAnimation.cs
+#	new file:   NGUI/Scripts/UI/UISpriteAnimation.cs.meta
+#	new file:   NGUI/Scripts/UI/UISpriteData.cs
+#	new file:   NGUI/Scripts/UI/UISpriteData.cs.meta
+#	new file:   NGUI/Scripts/UI/UIStretch.cs
+#	new file:   NGUI/Scripts/UI/UIStretch.cs.meta
+#	new file:   NGUI/Scripts/UI/UITextList.cs
+#	new file:   NGUI/Scripts/UI/UITextList.cs.meta
+#	new file:   NGUI/Scripts/UI/UITexture.cs
+#	new file:   NGUI/Scripts/UI/UITexture.cs.meta
+#	new file:   NGUI/Scripts/UI/UITooltip.cs
+#	new file:   NGUI/Scripts/UI/UITooltip.cs.meta
+#	new file:   NGUI/Scripts/UI/UIViewport.cs
+#	new file:   NGUI/Scripts/UI/UIViewport.cs.meta
+#	new file:   NGUIPickers.meta
+#	new file:   NGUIPickers/Examples.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.mat
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.mat.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.png
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.png.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.prefab
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/BarkAtlas/BarkAtlas.prefab.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.mat
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.mat.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.png
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.png.meta
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.prefab
+#	new file:   NGUIPickers/Examples/AtlasesAndFonts/PickerAtlas/PickerSpritesAtlas.prefab.meta
+#	new file:   NGUIPickers/Examples/Scenes.meta
+#	new file:   NGUIPickers/Examples/Scenes/DragAndDrop.unity
+#	new file:   NGUIPickers/Examples/Scenes/DragAndDrop.unity.meta
+#	new file:   NGUIPickers/Examples/Scenes/MainPickers.unity
+#	new file:   NGUIPickers/Examples/Scenes/MainPickers.unity.meta
+#	new file:   NGUIPickers/Examples/Scenes/TweenAndExpandablePicker.unity
+#	new file:   NGUIPickers/Examples/Scenes/TweenAndExpandablePicker.unity.meta
+#	new file:   NGUIPickers/Examples/Scripts.meta
+#	new file:   NGUIPickers/Examples/Scripts/DisplayPickerSprite.cs
+#	new file:   NGUIPickers/Examples/Scripts/DisplayPickerSprite.cs.meta
+#	new file:   NGUIPickers/Examples/Scripts/DisplayPickerText.cs
+#	new file:   NGUIPickers/Examples/Scripts/DisplayPickerText.cs.meta
+#	new file:   NGUIPickers/Examples/Scripts/PickerScrollButton.cs
+#	new file:   NGUIPickers/Examples/Scripts/PickerScrollButton.cs.meta
+#	new file:   NGUIPickers/Examples/Scripts/ScalePickerWidgetOnPress.cs
+#	new file:   NGUIPickers/Examples/Scripts/ScalePickerWidgetOnPress.cs.meta
+#	new file:   NGUIPickers/Examples/Scripts/TweenCenterWidgetScale.cs
+#	new file:   NGUIPickers/Examples/Scripts/TweenCenterWidgetScale.cs.meta
+#	new file:   NGUIPickers/Examples/Scripts/TweenCenterWidgetScaleAndAlpha.cs
+#	new file:   NGUIPickers/Examples/Scripts/TweenCenterWidgetScaleAndAlpha.cs.meta
+#	new file:   NGUIPickers/Prefabs.meta
+#	new file:   NGUIPickers/Prefabs/DatePicker.prefab
+#	new file:   NGUIPickers/Prefabs/DatePicker.prefab.meta
+#	new file:   NGUIPickers/Prefabs/DateTimePicker.prefab
+#	new file:   NGUIPickers/Prefabs/DateTimePicker.prefab.meta
+#	new file:   NGUIPickers/Prefabs/EmptyPicker.prefab
+#	new file:   NGUIPickers/Prefabs/EmptyPicker.prefab.meta
+#	new file:   NGUIPickers/Prefabs/ExpandablePicker.prefab
+#	new file:   NGUIPickers/Prefabs/ExpandablePicker.prefab.meta
+#	new file:   NGUIPickers/Prefabs/NumberPicker.prefab
+#	new file:   NGUIPickers/Prefabs/NumberPicker.prefab.meta
+#	new file:   NGUIPickers/Prefabs/SpritePickerScalingSelection.prefab
+#	new file:   NGUIPickers/Prefabs/SpritePickerScalingSelection.prefab.meta
+#	new file:   NGUIPickers/Prefabs/TextPicker.prefab
+#	new file:   NGUIPickers/Prefabs/TextPicker.prefab.meta
+#	new file:   NGUIPickers/ReadMe.txt
+#	new file:   NGUIPickers/ReadMe.txt.meta
+#	new file:   NGUIPickers/Scripts.meta
+#	new file:   NGUIPickers/Scripts/Editor.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPCyclerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPCyclerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPDatePickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPDatePickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPForwardPickerEventsInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPForwardPickerEventsInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPLabelPickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPLabelPickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPNumberPickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPNumberPickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPPickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPPickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPPickerSpriteBaseInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPPickerSpriteBaseInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPSpritePickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPSpritePickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPTextPickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPTextPickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/Editor/IPTexturePickerInspector.cs
+#	new file:   NGUIPickers/Scripts/Editor/IPTexturePickerInspector.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/DateTimeCompoundPicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/DateTimeCompoundPicker.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPDatePicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPDatePicker.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPNumberPicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPNumberPicker.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPSpritePicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPSpritePicker.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPTextPicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPTextPicker.cs.meta
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPTexturePicker.cs
+#	new file:   NGUIPickers/Scripts/a_MainPickerTypes/IPTexturePicker.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/AutoScrollOnClick.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/AutoScrollOnClick.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/CyclerClamper.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/CyclerClamper.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/DragPickerSprite.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/DragPickerSprite.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/IPCycler.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/IPCycler.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/IPForwardPickerEvents.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/IPForwardPickerEvents.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/PickerPopper.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/PickerPopper.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/ReceiveSpriteDrop.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/ReceiveSpriteDrop.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/TweenPanelClipRange.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/TweenPanelClipRange.cs.meta
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/TweenPanelClipSoftness.cs
+#	new file:   NGUIPickers/Scripts/b_OtherComponents/TweenPanelClipSoftness.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/DateTimeLocalization.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/DateTimeLocalization.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPDragScrollView.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPDragScrollView.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerBase.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerBase.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerLabelBase.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerLabelBase.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerSpriteBase.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPPickerSpriteBase.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPTexturePickerBase.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPTexturePickerBase.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPTools.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPTools.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/IPUserInteraction.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/IPUserInteraction.cs.meta
+#	new file:   NGUIPickers/Scripts/c_Internal/ScrollWheelEvents.cs
+#	new file:   NGUIPickers/Scripts/c_Internal/ScrollWheelEvents.cs.meta
+#	new file:   New Prefab.prefab
+#	new file:   New Prefab.prefab.meta
+#	new file:   PauseManager.cs
+#	new file:   PauseManager.cs.meta
+#	new file:   Plugins.Managed.meta
+#	new file:   Plugins.Managed/libpxcclr.unity.dll
+#	new file:   Plugins.Managed/libpxcclr.unity.dll.meta
+#	new file:   Plugins.Managed/pxcmdefs.extensions.cs
+#	new file:   Plugins.Managed/pxcmdefs.extensions.cs.meta
+#	new file:   Plugins.meta
+#	new file:   Plugins/JsonFx.Json.dll
+#	new file:   Plugins/JsonFx.Json.dll.meta
+#	new file:   Plugins/LitJson.dll
+#	new file:   Plugins/LitJson.dll.meta
+#	new file:   Plugins/Newtonsoft.Json.meta
+#	new file:   Plugins/Newtonsoft.Json/Newtonsoft.Json.dll
+#	new file:   Plugins/Newtonsoft.Json/Newtonsoft.Json.dll.meta
+#	new file:   Plugins/Newtonsoft.Json/Newtonsoft.Json.xml
+#	new file:   Plugins/Newtonsoft.Json/Newtonsoft.Json.xml.meta
+#	new file:   Plugins/libpxccpp2c.dll
+#	new file:   Plugins/libpxccpp2c.dll.meta
+#	new file:   Plugins/libpxccpp2c.dll.signature
+#	new file:   Plugins/libpxccpp2c.dll.signature.meta
+#	new file:   Plugins/x86.meta
+#	new file:   Plugins/x86/libpxccpp2c.dll
+#	new file:   Plugins/x86/libpxccpp2c.dll.meta
+#	new file:   Plugins/x86/libpxccpp2c.dll.signature
+#	new file:   Plugins/x86/libpxccpp2c.dll.signature.meta
+#	new file:   Plugins/x86_64.meta
+#	new file:   Plugins/x86_64/libpxccpp2c.dll
+#	new file:   Plugins/x86_64/libpxccpp2c.dll.meta
+#	new file:   Plugins/x86_64/libpxccpp2c.dll.signature
+#	new file:   Plugins/x86_64/libpxccpp2c.dll.signature.meta
+#	new file:   Prefabs.meta
+#	new file:   Prefabs/CoordCube.prefab
+#	new file:   Prefabs/CoordCube.prefab.meta
+#	new file:   Prefabs/CubePre.prefab
+#	new file:   Prefabs/CubePre.prefab.meta
+#	new file:   Prefabs/HandPrefabs.meta
+#	new file:   Prefabs/HandPrefabs/Bones.prefab
+#	new file:   Prefabs/HandPrefabs/Bones.prefab.meta
+#	new file:   Prefabs/HandPrefabs/HandAction.cs
+#	new file:   Prefabs/HandPrefabs/HandAction.cs.meta
+#	new file:   Prefabs/HandPrefabs/Joints.prefab
+#	new file:   Prefabs/HandPrefabs/Joints.prefab.meta
+#	new file:   Prefabs/HandPrefabs/PalmCenter.prefab
+#	new file:   Prefabs/HandPrefabs/PalmCenter.prefab.meta
+#	new file:   Prefabs/HandPrefabs/Tip.prefab
+#	new file:   Prefabs/HandPrefabs/Tip.prefab.meta
+#	new file:   Prefabs/LuckiestGuy.ttf
+#	new file:   Prefabs/LuckiestGuy.ttf.meta
+#	new file:   Prefabs/New Atlas.mat
+#	new file:   Prefabs/New Atlas.mat.meta
+#	new file:   Prefabs/New Atlas.png
+#	new file:   Prefabs/New Atlas.png.meta
+#	new file:   Prefabs/New Atlas.prefab
+#	new file:   Prefabs/New Atlas.prefab.meta
+#	new file:   Prefabs/STSONG.TTF
+#	new file:   Prefabs/STSONG.TTF.meta
+#	new file:   Prefabs/Songti.mat
+#	new file:   Prefabs/Songti.mat.meta
+#	new file:   Prefabs/Songti.shader
+#	new file:   Prefabs/Songti.shader.meta
+#	new file:   Prefabs/Songti2.mat
+#	new file:   Prefabs/Songti2.mat.meta
+#	new file:   Quad.obj
+#	new file:   Quad.obj.meta
+#	new file:   Scenes.meta
+#	new file:   Scenes/3DScene.unity
+#	new file:   Scenes/3DScene.unity.meta
+#	new file:   Scenes/4DScene.unity
+#	new file:   Scenes/4DScene.unity.meta
+#	new file:   Scenes/GUIScene.unity
+#	new file:   Scenes/GUIScene.unity.meta
+#	new file:   Scenes/HandsAnimation.unity
+#	new file:   Scenes/HandsAnimation.unity.meta
+#	new file:   Scenes/Level_01.meta
+#	new file:   Scenes/_LifeBar.unity
+#	new file:   Scenes/_LifeBar.unity.meta
+#	new file:   Scripts.meta
+#	new file:   Scripts/Action.cs
+#	new file:   Scripts/Action.cs.meta
+#	new file:   Scripts/Background.cs
+#	new file:   Scripts/Background.cs.meta
+#	new file:   Scripts/CoordManager.cs
+#	new file:   Scripts/CoordManager.cs.meta
+#	new file:   Scripts/Cube.meta
+#	new file:   Scripts/Cube/CubeBase.cs
+#	new file:   Scripts/Cube/CubeBase.cs.meta
+#	new file:   Scripts/CubeManager.cs
+#	new file:   Scripts/CubeManager.cs.meta
+#	new file:   Scripts/CubePro.cs
+#	new file:   Scripts/CubePro.cs.meta
+#	new file:   Scripts/CubesCon.cs
+#	new file:   Scripts/CubesCon.cs.meta
+#	new file:   Scripts/DisplayTextureFullScreen.js
+#	new file:   Scripts/DisplayTextureFullScreen.js.meta
+#	new file:   Scripts/GUI.meta
+#	new file:   Scripts/GUI/AutoScale.cs
+#	new file:   Scripts/GUI/AutoScale.cs.meta
+#	new file:   Scripts/GUI/BackButton.cs
+#	new file:   Scripts/GUI/BackButton.cs.meta
+#	new file:   Scripts/GUI/DiceSlice.meta
+#	new file:   Scripts/GUI/DiceSlice/CubeSelection.cs
+#	new file:   Scripts/GUI/DiceSlice/CubeSelection.cs.meta
+#	new file:   Scripts/GUI/DiceSlice/DiceContainerControl.cs
+#	new file:   Scripts/GUI/DiceSlice/DiceContainerControl.cs.meta
+#	new file:   Scripts/GUI/DiceSlice/DiceSliceButton.cs
+#	new file:   Scripts/GUI/DiceSlice/DiceSliceButton.cs.meta
+#	new file:   Scripts/GUI/DiceSlice/HelpButton.cs
+#	new file:   Scripts/GUI/DiceSlice/HelpButton.cs.meta
+#	new file:   Scripts/GUI/GUIMenuScript.cs
+#	new file:   Scripts/GUI/GUIMenuScript.cs.meta
+#	new file:   Scripts/GUI/IEnumarator.cs
+#	new file:   Scripts/GUI/IEnumarator.cs.meta
+#	new file:   Scripts/GUI/InfoHandler.cs
+#	new file:   Scripts/GUI/InfoHandler.cs.meta
+#	new file:   Scripts/GUI/LockButton.cs
+#	new file:   Scripts/GUI/LockButton.cs.meta
+#	new file:   Scripts/GUI/ProgressBar.cs
+#	new file:   Scripts/GUI/ProgressBar.cs.meta
+#	new file:   Scripts/GUI/RollDrill.meta
+#	new file:   Scripts/GUI/RollDrill/DimensionSelect.cs
+#	new file:   Scripts/GUI/RollDrill/DimensionSelect.cs.meta
+#	new file:   Scripts/GUI/RollDrill/DrillDownButton.cs
+#	new file:   Scripts/GUI/RollDrill/DrillDownButton.cs.meta
+#	new file:   Scripts/GUI/RollDrill/MiniCoord.cs
+#	new file:   Scripts/GUI/RollDrill/MiniCoord.cs.meta
+#	new file:   Scripts/GUI/RollDrill/NX.cs
+#	new file:   Scripts/GUI/RollDrill/NX.cs.meta
+#	new file:   Scripts/GUI/RollDrill/NY.cs
+#	new file:   Scripts/GUI/RollDrill/NY.cs.meta
+#	new file:   Scripts/GUI/RollDrill/NZ.cs
+#	new file:   Scripts/GUI/RollDrill/NZ.cs.meta
+#	new file:   Scripts/GUI/RollDrill/NewRDRequest.cs
+#	new file:   Scripts/GUI/RollDrill/NewRDRequest.cs.meta
+#	new file:   Scripts/GUI/RollDrill/PX.cs
+#	new file:   Scripts/GUI/RollDrill/PX.cs.meta
+#	new file:   Scripts/GUI/RollDrill/PY.cs
+#	new file:   Scripts/GUI/RollDrill/PY.cs.meta
+#	new file:   Scripts/GUI/RollDrill/PZ.cs
+#	new file:   Scripts/GUI/RollDrill/PZ.cs.meta
+#	new file:   Scripts/GUI/RollDrill/PreNextButtonControl.cs
+#	new file:   Scripts/GUI/RollDrill/PreNextButtonControl.cs.meta
+#	new file:   Scripts/GUI/RollDrill/RollDrillHandler.cs
+#	new file:   Scripts/GUI/RollDrill/RollDrillHandler.cs.meta
+#	new file:   Scripts/GUI/RollDrill/RollUpButton.cs
+#	new file:   Scripts/GUI/RollDrill/RollUpButton.cs.meta
+#	new file:   Scripts/GUI/RollDrill/XButton.cs
+#	new file:   Scripts/GUI/RollDrill/XButton.cs.meta
+#	new file:   Scripts/GUI/RollDrill/YButton.cs
+#	new file:   Scripts/GUI/RollDrill/YButton.cs.meta
+#	new file:   Scripts/GUI/RollDrill/ZButton.cs
+#	new file:   Scripts/GUI/RollDrill/ZButton.cs.meta
+#	new file:   Scripts/GUI/SelfAdaption.cs
+#	new file:   Scripts/GUI/SelfAdaption.cs.meta
+#	new file:   Scripts/GUI/TestProgressBar.cs
+#	new file:   Scripts/GUI/TestProgressBar.cs.meta
+#	new file:   Scripts/GUI/WelcomeGuiClass.js
+#	new file:   Scripts/GUI/WelcomeGuiClass.js.meta
+#	new file:   Scripts/GameState.js
+#	new file:   Scripts/GameState.js.meta
+#	new file:   Scripts/HandCon.cs
+#	new file:   Scripts/HandCon.cs.meta
+#	new file:   Scripts/HandsViewer.cs
+#	new file:   Scripts/HandsViewer.cs.meta
+#	new file:   Scripts/Js-magicCubeControl.js
+#	new file:   Scripts/Js-magicCubeControl.js.meta
+#	new file:   Scripts/MouseFollowRotation.cs
+#	new file:   Scripts/MouseFollowRotation.cs.meta
+#	new file:   Scripts/MousePro.cs
+#	new file:   Scripts/MousePro.cs.meta
+#	new file:   Scripts/MsgMouseFollow.cs
+#	new file:   Scripts/MsgMouseFollow.cs.meta
+#	new file:   Scripts/Net.meta
+#	new file:   Scripts/Net/DataHandlerTest.cs
+#	new file:   Scripts/Net/DataHandlerTest.cs.meta
+#	new file:   Scripts/RS.meta
+#	new file:   Scripts/RS/CubeTracking.cs
+#	new file:   Scripts/RS/CubeTracking.cs.meta
+#	new file:   Scripts/RS/TextWindow.cs
+#	new file:   Scripts/RS/TextWindow.cs.meta
+#	new file:   Scripts/RescaleGUI.cs
+#	new file:   Scripts/RescaleGUI.cs.meta
+#	new file:   Scripts/RotateWithMouse.cs
+#	new file:   Scripts/RotateWithMouse.cs.meta
+#	new file:   Scripts/ShowBoundry.cs
+#	new file:   Scripts/ShowBoundry.cs.meta
+#	new file:   Scripts/ShowTable.cs
+#	new file:   Scripts/ShowTable.cs.meta
+#	new file:   Scripts/SubmitButton.cs
+#	new file:   Scripts/SubmitButton.cs.meta
+#	new file:   Scripts/TextFollower.cs
+#	new file:   Scripts/TextFollower.cs.meta
+#	new file:   Scripts/UIAct.cs
+#	new file:   Scripts/UIAct.cs.meta
+#	new file:   Scripts/iTween.js
+#	new file:   Scripts/iTween.js.meta
+#	new file:   Shaders.meta
+#	new file:   Shaders/Rim Lit Bumped Specular.shader
+#	new file:   Shaders/Rim Lit Bumped Specular.shader.meta
+#	new file:   Shield.png
+#	new file:   Shield.png.meta
+#	new file:   ShieldBackground.png
+#	new file:   ShieldBackground.png.meta
+#	new file:   ShieldBar - Copy.tif
+#	new file:   ShieldBar - Copy.tif.meta
+#	new file:   ShieldBar.tif
+#	new file:   ShieldBar.tif.meta
+#	new file:   Standard Assets (Mobile).meta
+#	new file:   Standard Assets (Mobile)/Control Setups.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/CameraRelativeSetup.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/CameraRelativeSetup.unity.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/FirstPersonSetup.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/FirstPersonSetup.unity.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/FirstPersonTilt.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/FirstPersonTilt.unity.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/PlayerRelativeSetup.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/PlayerRelativeSetup.unity.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/SidescrollSetup.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/SidescrollSetup.unity.meta
+#	new file:   Standard Assets (Mobile)/Control Setups/TapControlSetup.unity
+#	new file:   Standard Assets (Mobile)/Control Setups/TapControlSetup.unity.meta
+#	new file:   Standard Assets (Mobile)/Materials.meta
+#	new file:   Standard Assets (Mobile)/Materials/grid.mat
+#	new file:   Standard Assets (Mobile)/Materials/grid.mat.meta
+#	new file:   Standard Assets (Mobile)/Materials/gridFor2D.mat
+#	new file:   Standard Assets (Mobile)/Materials/gridFor2D.mat.meta
+#	new file:   Standard Assets (Mobile)/Materials/skybox.mat
+#	new file:   Standard Assets (Mobile)/Materials/skybox.mat.meta
+#	new file:   Standard Assets (Mobile)/Prefabs.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/2D Side Scroller.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/2D Side Scroller.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Camera Relative Controls.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Camera Relative Controls.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Dual Joysticks.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Dual Joysticks.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Dual TouchPads.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Dual TouchPads.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/First Person Controls.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/First Person Controls.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/First Person Tilt Controls.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/First Person Tilt Controls.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Player Relative Controls.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Player Relative Controls.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Roll A Ball.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Roll A Ball.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Single Joystick.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Single Joystick.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Single TouchPad.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/Single TouchPad.prefab.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/Skybox.fbx
+#	new file:   Standard Assets (Mobile)/Prefabs/Skybox.fbx.meta
+#	new file:   Standard Assets (Mobile)/Prefabs/TapToMove Controls.prefab
+#	new file:   Standard Assets (Mobile)/Prefabs/TapToMove Controls.prefab.meta
+#	new file:   Standard Assets (Mobile)/Scripts.meta
+#	new file:   Standard Assets (Mobile)/Scripts/CameraRelativeControl.js
+#	new file:   Standard Assets (Mobile)/Scripts/CameraRelativeControl.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/FirstPersonControl.js
+#	new file:   Standard Assets (Mobile)/Scripts/FirstPersonControl.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/FollowTransform.js
+#	new file:   Standard Assets (Mobile)/Scripts/FollowTransform.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/Joystick.js
+#	new file:   Standard Assets (Mobile)/Scripts/Joystick.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/ObliqueNear.js
+#	new file:   Standard Assets (Mobile)/Scripts/ObliqueNear.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/PlayerRelativeControl.js
+#	new file:   Standard Assets (Mobile)/Scripts/PlayerRelativeControl.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/RollABall.js
+#	new file:   Standard Assets (Mobile)/Scripts/RollABall.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/RotationConstraint.js
+#	new file:   Standard Assets (Mobile)/Scripts/RotationConstraint.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/SidescrollControl.js
+#	new file:   Standard Assets (Mobile)/Scripts/SidescrollControl.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/SmoothFollow2D.js
+#	new file:   Standard Assets (Mobile)/Scripts/SmoothFollow2D.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/ZoomCamera.js
+#	new file:   Standard Assets (Mobile)/Scripts/ZoomCamera.js.meta
+#	new file:   Standard Assets (Mobile)/Scripts/tapcontrol.js
+#	new file:   Standard Assets (Mobile)/Scripts/tapcontrol.js.meta
+#	new file:   Standard Assets (Mobile)/Shaders.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy).meta
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap AlphaTest.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap AlphaTest.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap Only.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap Only.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap Reflective.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Lightmap Shaders (Legacy)/Mobile Lightmap Reflective.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Miscellaneous Shaders.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Miscellaneous Shaders/Mobile Background.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Miscellaneous Shaders/Mobile Background.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Miscellaneous Shaders/Mobile Detail.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Miscellaneous Shaders/Mobile Detail.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Particle Shaders.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Particle Shaders/Mobile Multiply Culled.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Particle Shaders/Mobile Multiply Culled.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Particle Shaders/Mobile Particles Additive Culled.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Particle Shaders/Mobile Particles Additive Culled.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Vertex Colored Shaders.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Vertex Colored Shaders/Mobile Transparent Vertex Color.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Vertex Colored Shaders/Mobile Transparent Vertex Color.shader.meta
+#	new file:   Standard Assets (Mobile)/Shaders/Vertex Colored Shaders/Mobile Vertex Colored.shader
+#	new file:   Standard Assets (Mobile)/Shaders/Vertex Colored Shaders/Mobile Vertex Colored.shader.meta
+#	new file:   Standard Assets (Mobile)/Textures.meta
+#	new file:   Standard Assets (Mobile)/Textures/JoystickThumb.psd
+#	new file:   Standard Assets (Mobile)/Textures/JoystickThumb.psd.meta
+#	new file:   Standard Assets (Mobile)/Textures/ThumbAreaLeft.psd
+#	new file:   Standard Assets (Mobile)/Textures/ThumbAreaLeft.psd.meta
+#	new file:   Standard Assets (Mobile)/Textures/ThumbAreaRight.psd
+#	new file:   Standard Assets (Mobile)/Textures/ThumbAreaRight.psd.meta
+#	new file:   Standard Assets (Mobile)/Textures/grid.psd
+#	new file:   Standard Assets (Mobile)/Textures/grid.psd.meta
+#	new file:   Standard Assets (Mobile)/Textures/skyBox.tga
+#	new file:   Standard Assets (Mobile)/Textures/skyBox.tga.meta
+#	new file:   Standard Assets.meta
+#	new file:   Standard Assets/Character Controllers.meta
+#	new file:   Standard Assets/Character Controllers/3rd Person Controller.prefab
+#	new file:   Standard Assets/Character Controllers/3rd Person Controller.prefab.meta
+#	new file:   Standard Assets/Character Controllers/First Person Controller.prefab
+#	new file:   Standard Assets/Character Controllers/First Person Controller.prefab.meta
+#	new file:   Standard Assets/Character Controllers/Sources.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png.meta
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png
+#	new file:   Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js.meta
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js
+#	new file:   Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only).meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/AmbientObscurance.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/AmbientObscurance.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/AntialiasingAsPostEffect.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/AntialiasingAsPostEffect.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Bloom.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Bloom.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/BloomAndLensFlares.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/BloomAndLensFlares.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Blur.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Blur.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/BlurEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/BlurEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/CameraMotionBlur.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/CameraMotionBlur.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionCurves.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionCurves.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionLut.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/ColorCorrectionLut.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ContrastEnhance.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/ContrastEnhance.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ContrastStretchEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/ContrastStretchEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Crease.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Crease.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/DepthOfField34.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/DepthOfField34.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/DepthOfFieldScatter.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/DepthOfFieldScatter.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/EdgeDetectEffectNormals.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/EdgeDetectEffectNormals.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/FastBloom.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/FastBloom.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Fisheye.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Fisheye.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/GlobalFog.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/GlobalFog.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/GlowEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/GlowEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/GrayscaleEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/GrayscaleEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ImageEffectBase.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/ImageEffectBase.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ImageEffects.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/ImageEffects.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/MotionBlur.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/MotionBlur.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/NoiseAndGrain.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/NoiseAndGrain.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/NoiseEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/NoiseEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/PostEffectsBase.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/PostEffectsBase.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/PostEffectsHelper.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/PostEffectsHelper.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Quads.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Quads.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/ScreenOverlay.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/ScreenOverlay.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/SepiaToneEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/SepiaToneEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/SunShafts.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/SunShafts.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/TiltShiftHdr.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/TiltShiftHdr.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Tonemapping.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Tonemapping.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Triangles.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Triangles.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/TwirlEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/TwirlEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/Vignetting.js
+#	new file:   Standard Assets/Image Effects (Pro Only)/Vignetting.js.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/VortexEffect.cs
+#	new file:   Standard Assets/Image Effects (Pro Only)/VortexEffect.cs.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/BlendModesOverlay.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/BlendModesOverlay.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/BlurEffectConeTaps.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/BlurEffectConeTaps.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CameraMotionBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CameraMotionBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CameraMotionBlurDX11.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CameraMotionBlurDX11.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ChromaticAberrationShader.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ChromaticAberrationShader.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrection3DLut.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrection3DLut.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionCurves.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionCurves.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionCurvesSimple.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionCurvesSimple.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionEffect.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionEffect.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionSelective.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ColorCorrectionSelective.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Adaptation.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Adaptation.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Apply.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Apply.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Luminance.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/Luminance.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/MinMaxReduction.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Contrast Stretch/MinMaxReduction.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ContrastComposite.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ContrastComposite.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ConvertDepth.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ConvertDepth.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CreaseApply.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/CreaseApply.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/EdgeDetectNormals.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/EdgeDetectNormals.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/FisheyeShader.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/FisheyeShader.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlobalFog.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlobalFog.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowCompose.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowCompose.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowConeTap.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowConeTap.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowEffectDownsample.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GlowEffectDownsample.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GrayscaleEffect.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/GrayscaleEffect.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/MotionBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/MotionBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/MotionBlurClear.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/MotionBlurClear.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseAndGrain.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseAndGrain.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseAndGrainDX11.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseAndGrainDX11.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseEffectShaderRGB.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseEffectShaderRGB.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseEffectShaderYUV.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/NoiseEffectShaderYUV.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/PrepareSunShaftsBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/PrepareSunShaftsBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/RadialBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/RadialBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SSAOShader.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SSAOShader.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ScreenSpaceAmbientObscurance.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ScreenSpaceAmbientObscurance.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SepiaToneEffect.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SepiaToneEffect.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ShowAlphaChannel.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/ShowAlphaChannel.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SimpleClear.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SimpleClear.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SunShaftsComposite.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/SunShaftsComposite.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Tonemapper.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/Tonemapper.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/TwirlEffect.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/TwirlEffect.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/VignettingShader.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/VignettingShader.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/VortexEffect.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/VortexEffect.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/DLAA.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/DLAA.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAA2.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAA2.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAA3Console.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAA3Console.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAAPreset2.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAAPreset2.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAAPreset3.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/FXAAPreset3.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/NFAA.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/NFAA.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/SSAA.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_Antialiasing/SSAA.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/Blend.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/Blend.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlendForBloom.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlendForBloom.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlendOneOne.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlendOneOne.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlurAndFlares.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BrightPassFilter.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/LensFlareCreate.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MobileBloom.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MobileBloom.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MobileBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MobileBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/VignetteShader.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_BloomAndFlares/VignetteShader.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/Bokeh34.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/Bokeh34.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfField34.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfField34.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfFieldDX11.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/SeparableBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/SeparableBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/frag_ao.cginc
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Shaders/frag_ao.cginc.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/ContrastEnhanced3D16.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/ContrastEnhanced3D16.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/MotionBlurJitter.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/MotionBlurJitter.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Neutral3D16.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Neutral3D16.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Noise.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/Noise.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseAndGrain.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseAndGrain.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectGrain.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectGrain.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectScratch.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/NoiseEffectScratch.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/RandomVectors.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/RandomVectors.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/VignetteMask.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/VignetteMask.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/color correction ramp.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/grayscale ramp.png
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/grayscale ramp.png.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/hexShape.psd
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/hexShape.psd.meta
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/sphereShape.psd
+#	new file:   Standard Assets/Image Effects (Pro Only)/_Sources/Textures/sphereShape.psd.meta
+#	new file:   Standard Assets/Scripts.meta
+#	new file:   Standard Assets/Scripts/Camera Scripts.meta
+#	new file:   Standard Assets/Scripts/Camera Scripts/MouseOrbit.js
+#	new file:   Standard Assets/Scripts/Camera Scripts/MouseOrbit.js.meta
+#	new file:   Standard Assets/Scripts/Camera Scripts/SmoothFollow.js
+#	new file:   Standard Assets/Scripts/Camera Scripts/SmoothFollow.js.meta
+#	new file:   Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js
+#	new file:   Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js.meta
+#	new file:   Standard Assets/Scripts/General Scripts.meta
+#	new file:   Standard Assets/Scripts/General Scripts/ActivateTrigger.cs
+#	new file:   Standard Assets/Scripts/General Scripts/ActivateTrigger.cs.meta
+#	new file:   Standard Assets/Scripts/General Scripts/DragRigidbody.js
+#	new file:   Standard Assets/Scripts/General Scripts/DragRigidbody.js.meta
+#	new file:   Standard Assets/Skyboxes.meta
+#	new file:   Standard Assets/Skyboxes/DawnDusk Skybox.mat
+#	new file:   Standard Assets/Skyboxes/DawnDusk Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Eerie Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Eerie Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/MoonShine Skybox.mat
+#	new file:   Standard Assets/Skyboxes/MoonShine Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Overcast1 Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Overcast1 Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Overcast2 Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Overcast2 Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/StarryNight Skybox.mat
+#	new file:   Standard Assets/Skyboxes/StarryNight Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Sunny1 Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Sunny1 Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Sunny2 Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Sunny2 Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Sunny3 Skybox.mat
+#	new file:   Standard Assets/Skyboxes/Sunny3 Skybox.mat.meta
+#	new file:   Standard Assets/Skyboxes/Textures.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_front.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_front.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_left.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_left.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif.meta
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif
+#	new file:   Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif.meta
+#	new file:   Standard Assets/Skyboxes/_skybox info.txt
+#	new file:   Standard Assets/Skyboxes/_skybox info.txt.meta
+#	new file:   TableUnit.mat
+#	new file:   TableUnit.mat.meta
+#	new file:   TableUnit.png
+#	new file:   TableUnit.png.meta
+#	new file:   TableUnit.prefab
+#	new file:   TableUnit.prefab.meta
+#	new file:   UITexture.meta
+#	new file:   UITexture/center.png
+#	new file:   UITexture/center.png.meta
+#	new file:   UITexture/x.png
+#	new file:   UITexture/x.png.meta
+#	new file:   UITexture/y.png
+#	new file:   UITexture/y.png.meta
+#	new file:   UITexture/z.png
+#	new file:   UITexture/z.png.meta
+#	new file:   UnityVS.meta
+#	new file:   UnityVS/Editor.meta
+#	new file:   UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll
+#	new file:   UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll.meta
+#	new file:   UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll
+#	new file:   UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll.meta
+#	new file:   UnityVS/Editor/UnityVS.VersionSpecific.dll
+#	new file:   UnityVS/Editor/UnityVS.VersionSpecific.dll.meta
+#	new file:   model.meta
+#	new file:   model/1.jpg
+#	new file:   model/1.jpg.meta
+#	new file:   model/2.jpg
+#	new file:   model/2.jpg.meta
+#	new file:   model/2DAxis.png
+#	new file:   model/2DAxis.png.meta
+#	new file:   model/3.jpg
+#	new file:   model/3.jpg.meta
+#	new file:   model/4.jpg
+#	new file:   model/4.jpg.meta
+#	new file:   model/5.jpg
+#	new file:   model/5.jpg.meta
+#	new file:   model/6.jpg
+#	new file:   model/6.jpg.meta
+#	new file:   model/7.jpg
+#	new file:   model/7.jpg.meta
+#	new file:   model/8.jpg
+#	new file:   model/8.jpg.meta
+#	new file:   model/Materials.meta
+#	new file:   model/Materials/1.mat
+#	new file:   model/Materials/1.mat.meta
+#	new file:   model/Materials/2.mat
+#	new file:   model/Materials/2.mat.meta
+#	new file:   model/Materials/3.mat
+#	new file:   model/Materials/3.mat.meta
+#	new file:   model/Materials/4.mat
+#	new file:   model/Materials/4.mat.meta
+#	new file:   model/Materials/5.mat
+#	new file:   model/Materials/5.mat.meta
+#	new file:   model/Materials/6.mat
+#	new file:   model/Materials/6.mat.meta
+#	new file:   model/Materials/7.mat
+#	new file:   model/Materials/7.mat.meta
+#	new file:   model/Materials/Material #65.mat
+#	new file:   model/Materials/Material #65.mat.meta
+#	new file:   model/Materials/Materials.meta
+#	new file:   model/Materials/Materials/Material #48.mat
+#	new file:   model/Materials/Materials/Material #48.mat.meta
+#	new file:   model/Materials/Materials/Material #49.mat
+#	new file:   model/Materials/Materials/Material #49.mat.meta
+#	new file:   model/Materials/Materials/Material #50.mat
+#	new file:   model/Materials/Materials/Material #50.mat.meta
+#	new file:   model/Materials/Materials/Material #51.mat
+#	new file:   model/Materials/Materials/Material #51.mat.meta
+#	new file:   model/Materials/Materials/Material #52.mat
+#	new file:   model/Materials/Materials/Material #52.mat.meta
+#	new file:   model/Materials/Materials/Material #53.mat
+#	new file:   model/Materials/Materials/Material #53.mat.meta
+#	new file:   model/Materials/Materials/Material #54.mat
+#	new file:   model/Materials/Materials/Material #54.mat.meta
+#	new file:   model/Materials/b.mat
+#	new file:   model/Materials/b.mat.meta
+#	new file:   model/Materials/g 1.mat
+#	new file:   model/Materials/g 1.mat.meta
+#	new file:   model/Materials/g 2.mat
+#	new file:   model/Materials/g 2.mat.meta
+#	new file:   model/Materials/g 3.mat
+#	new file:   model/Materials/g 3.mat.meta
+#	new file:   model/Materials/g.mat
+#	new file:   model/Materials/g.mat.meta
+#	new file:   model/Materials/r.mat
+#	new file:   model/Materials/r.mat.meta
+#	new file:   model/TableUnit.png
+#	new file:   model/TableUnit.png.meta
+#	new file:   model/TableUnit2.png
+#	new file:   model/TableUnit2.png.meta
+#	new file:   model/b.png
+#	new file:   model/b.png.meta
+#	new file:   model/g.png
+#	new file:   model/g.png.meta
+#	new file:   model/jiantou 1.FBX
+#	new file:   model/jiantou 1.FBX.meta
+#	new file:   model/mofang.FBX
+#	new file:   model/mofang.FBX.meta
+#	new file:   model/positioner.prefab
+#	new file:   model/positioner.prefab.meta
+#	new file:   model/r.png
+#	new file:   model/r.png.meta
+#	new file:   resources.meta
+#	new file:   resources/$Unity Wallpaper.jpg
+#	new file:   resources/$Unity Wallpaper.jpg.meta
+#	new file:   resources/3d-backgrounds.jpg
+#	new file:   resources/3d-backgrounds.jpg.meta
+#	new file:   resources/3d-hd-0.jpg
+#	new file:   resources/3d-hd-0.jpg.meta
+#	new file:   resources/6824266-hd-background.jpg
+#	new file:   resources/6824266-hd-background.jpg.meta
+#	new file:   resources/innergradient.png
+#	new file:   resources/innergradient.png.meta
+#	new file:   shader.meta
+#	new file:   shader/3D Text Shader.shader
+#	new file:   shader/3D Text Shader.shader.meta
+#	new file:   shader/CubeShader.shader
+#	new file:   shader/CubeShader.shader.meta
+#	new file:   shader/Paint.shader
+#	new file:   shader/Paint.shader.meta
+#	new file:   shader/Unlit - Transparent Colored (TextureClip).shader
+#	new file:   shader/Unlit - Transparent Colored (TextureClip).shader.meta
+#	new file:   testData.meta
+#	new file:   testData/2020.json
+#	new file:   testData/2020.json.meta
+#	new file:   testData/New Text Document.txt
+#	new file:   testData/New Text Document.txt.meta
+#	new file:   testData/TableHash.json
+#	new file:   testData/TableHash.json.meta
+#	new file:   testData/address-area.json
+#	new file:   testData/address-area.json.meta
+#	new file:   testData/address-province.json
+#	new file:   testData/address-province.json.meta
+#	new file:   testData/address-province.txt
+#	new file:   testData/address-province.txt.meta
+#	new file:   testData/jsonModel.json
+#	new file:   testData/jsonModel.json.meta
+#	new file:   testData/jsonModel.txt
+#	new file:   testData/jsonModel.txt.meta
+#	new file:   testData/real.json
+#	new file:   testData/real.json.meta
+#	new file:   testData/test.json
+#	new file:   testData/test.json.meta
+#	new file:   testData/test.txt
+#	new file:   testData/test.txt.meta
+#	new file:   testData/test2.json
+#	new file:   testData/test2.json.meta
+#	new file:   testData/time-month.json
+#	new file:   testData/time-month.json.meta
+#	new file:   testData/time-month.txt
+#	new file:   testData/time-month.txt.meta
+#	new file:   testData/time-quarter.json
+#	new file:   testData/time-quarter.json.meta
+#	new file:   testData/time-quarter.txt
+#	new file:   testData/time-quarter.txt.meta
+#	new file:   testData/time-year.json
+#	new file:   testData/time-year.json.meta
+#	new file:   testData/time-year.txt
+#	new file:   testData/time-year.txt.meta
+#
